@@ -1,0 +1,37 @@
+.header {
+    height: 100px;
+    background-color: #122a2f;
+
+    &__container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        height: 59px;
+        width: 109px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__link {
+        color: $pureWhite;
+        text-decoration: none;
+        position: relative;
+        text-transform: uppercase;
+
+        font-weight: bold;
+        font-size: 14px;
+
+        transition: all .3s ease;
+        &:hover {
+            color: $yellow;
+        }
+    }
+}

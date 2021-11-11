@@ -1,0 +1,71 @@
+.intro {
+    height: 100vh;
+    background-color: #11343a;
+    
+    position: relative;
+
+    &__wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        flex: 0 0 100px;
+    }
+
+    &__container {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__content {
+        height: 370px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #122a2f;
+    }
+
+    &__title {
+        font-size: 64px;
+        color: $pureWhite;
+        font-weight: bold;
+    }
+    
+    &__button {
+        width: 230px;
+        height: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $yellow;
+        color: $pureBlack;
+
+        font-size: 20px;
+        font-weight: bold;
+
+        border: 0;
+        cursor: pointer;
+
+        transition: all .2s ease;
+
+        &:hover {
+            background-color: transparent;
+            color: $pureWhite;
+            outline: 2px solid $yellow;
+        }
+    }
+
+    &__anchor {
+        position: absolute;
+        bottom: 0;
+    }
+}

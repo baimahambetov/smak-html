@@ -1,0 +1,22 @@
+.gallery {
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    &__photo {
+        flex: 1 0 320px;
+        height: 250px;
+        background-color: $darkGreen;
+
+        &:nth-child(odd) {
+            background-color: #394948;
+        }
+    }
+
+    &__image {
+        object-fit: cover;
+    }
+}

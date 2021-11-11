@@ -1,0 +1,31 @@
+.footer {
+    height: 180px;
+    padding: 25px 0;
+    background-color: $grey;
+    position: relative;
+    &__container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__copyright {
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: $pureWhite;
+
+        span {
+            color: $yellow;
+        }
+    }
+
+    &__anchor {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

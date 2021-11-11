@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.anchor {
+    width: 60px;
+    height: 60px;
+    background-color: $yellow;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.button {
+    background-color: $yellow;
+    border: 0;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #515151;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: $pureBlack;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+    text-align: center;
+}
+
+.separator {
+    margin: 25px auto;
+    height: 3px;
+    width: 170px;
+    display: block;
+    background-color: $yellow;
+}
+
+.link-separator {
+    margin: 0 24px;
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background-color: $yellow;
+
+    &:last-child {
+        display: none;
+    }
+}
